@@ -49,3 +49,14 @@ To authenticate with, and publish to, a registry other than `registry.npmjs.org`
     auth-token: ${{ secrets.NPM_TOKEN }}
     registry-url: someOtherRegistry.someDomain.net
 ```
+
+For scoped registries:
+
+```yml
+- uses: borales/actions-yarn@v2.0.0
+  with:
+    auth-token-0: ${{ secrets.NPM_TOKEN }}
+    registry-url-0: someOtherRegistry.someDomain.net
+    auth-token-1: ${{ secrets.OTHER_NPM_TOKEN }}
+    registry-url-1: someOtherRegistry.someOtherDomain.net
+```
