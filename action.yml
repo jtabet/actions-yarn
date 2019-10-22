@@ -19,3 +19,16 @@ runs:
   env:
     NPM_AUTH_TOKEN: ${{ inputs.auth-token }}
     NPM_REGISTRY_URL: ${{ inputs.registry-url }}
+    NPM_AUTH_TOKEN_0: ${{ inputs.auth-token-0 }}
+    NPM_REGISTRY_URL_0: ${{ inputs.registry-url-0 }}
+    NPM_AUTH_TOKEN_1: ${{ inputs.auth-token-1 }}
+    NPM_REGISTRY_URL_1: ${{ inputs.registry-url-1 }}
+    NPM_AUTH_TOKEN_2: ${{ inputs.auth-token-2 }}
+    NPM_REGISTRY_URL_2: ${{ inputs.registry-url-2 }}
+    NPM_AUTH_TOKEN_3: ${{ inputs.auth-token-3 }}
+    NPM_REGISTRY_URL_3: ${{ inputs.registry-url-3 }}
+    NPM_AUTH_TOKEN_4: ${{ inputs.auth-token-4 }}
+    NPM_REGISTRY_URL_4: ${{ inputs.registry-url-4 }}
+    NPM_AUTH_TOKEN_5: ${{ inputs.auth-token-5 }}
+    NPM_REGISTRY_URL_5: ${{ inputs.registry-url-5 }}
+    
