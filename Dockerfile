@@ -1,4 +1,4 @@
-FROM node:10.16-alpine
+FROM node:12-alpine
 
 COPY "entrypoint.sh" "/entrypoint.sh"
 ENTRYPOINT ["/entrypoint.sh"]
